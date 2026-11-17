@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Archit Jain — BBA Digital Business and Entrepreneurship student at IIM Bangalore and Gyan Veer University. Explore projects, education, experience, and leadership.">
+  <title>Archit Jain — Personal Portfolio | Digital Business &amp; Entrepreneurship</title>
+  
+  <!-- Google Fonts Preconnect and Import -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+  <!-- ========================================================
+       HEADER & NAVIGATION BAR
+       Minimal, clean, sticky navigation with accessible pure CSS mobile menu
+       ======================================================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#top" class="brand-logo" aria-label="Archit Jain Portfolio Home">
+        <span class="logo-text">ARCHIT JAIN</span>
+        <span class="logo-accent" aria-hidden="true">.</span>
+      </a>
+
+      <!-- Pure CSS mobile menu toggle (Zero JS required) -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-nav">Let's Connect</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ========================================================
+         HERO / HOME SECTION
+         Two-column editorial layout: Left intro, Right bespoke visual monogram
+         ======================================================== -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-grid">
+        
+        <!-- Hero Left Column: Intro & Call to Actions -->
+        <div class="hero-content">
+          <div class="hero-eyebrow">
+            <span class="eyebrow-line" aria-hidden="true"></span>
+            <span class="eyebrow-text">BUSINESS STUDENT | ENTREPRENEURSHIP | PRODUCT BUILDING</span>
+          </div>
+
+          <h1 class="hero-title">
+            Building ideas into <em>meaningful</em> digital experiences.
+          </h1>
+
+          <p class="hero-intro">
+            I'm Archit Jain, a BBA Digital Business and Entrepreneurship student at IIM Bangalore, also pursuing undergraduate studies at Gyan Veer University. I'm interested in startups, AI-enabled products, entrepreneurship and turning ideas into practical solutions.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#experience" class="btn btn-primary">
+              Explore My Work
+              <svg class="btn-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M3.33334 8H12.6667" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M8 3.33334L12.6667 8L8 12.6667" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="meta-item">
+              <span class="status-pulse" aria-hidden="true"></span>
+              <span class="meta-text">Indore, India | Open to Learning &amp; Opportunities</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: Bespoke Editorial Visual Art (No AI/fake portraits) -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="visual-art-card">
+            <!-- Architectural editorial grid framing -->
+            <div class="art-corner art-corner-tl"></div>
+            <div class="art-corner art-corner-tr"></div>
+            <div class="art-corner art-corner-bl"></div>
+            <div class="art-corner art-corner-br"></div>
+
+            <div class="art-inner-frame">
+              <div class="art-circle-backdrop"></div>
+              
+              <!-- Monogram AJ -->
+              <div class="monogram-wrapper">
+                <span class="monogram-char char-a">A</span>
+                <span class="monogram-char char-j">J</span>
+              </div>
+
+              <!-- Editorial decorative elements -->
+              <div class="art-badge-top">
+                <span class="badge-dot"></span>
+                <span class="badge-text">PORTFOLIO &bull; EDITION 2024</span>
+              </div>
+
+              <div class="art-geometry-lines">
+                <svg width="220" height="70" viewBox="0 0 220 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <line x1="10" y1="20" x2="210" y2="20" stroke="#172B36" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+                  <line x1="10" y1="50" x2="210" y2="50" stroke="#172B36" stroke-opacity="0.15"/>
+                  <circle cx="110" cy="35" r="28" stroke="#D6A56C" stroke-width="1.5" stroke-opacity="0.8"/>
+                  <circle cx="110" cy="35" r="4" fill="#D6A56C"/>
+                  <line x1="70" y1="35" x2="150" y2="35" stroke="#657C78" stroke-width="1.2" stroke-opacity="0.6"/>
+                </svg>
+              </div>
+
+              <div class="art-caption-bottom">
+                <p class="caption-institution">IIM BANGALORE &bull; GYAN VEER</p>
+                <p class="caption-discipline">DIGITAL BUSINESS &amp; ENTREPRENEURSHIP</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION: ABOUT ME
+         Clean split layout with highlighted manifesto statement
+         ======================================================== -->
+    <section id="about" class="about-section">
+      <div class="container">
+        
+        <div class="section-label-wrapper">
+          <span class="section-index">01</span>
+          <span class="section-kicker">ABOUT ARCHIT</span>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left: Narrative Prose -->
+          <div class="about-story">
+            <h2 class="section-title">A little about me.</h2>
+            
+            <div class="story-body">
+              <p>
+                I'm a curious and action-oriented undergraduate student interested in understanding how businesses work, how products are built and how technology can solve everyday problems.
+              </p>
+              <p>
+                I enjoy exploring ideas, building websites, participating in case competitions and learning how to take a product from concept to launch.
+              </p>
+              <p>
+                My current focus is on entrepreneurship, AI-enabled products, understanding users and developing practical business and technology skills.
+              </p>
+            </div>
+
+            <!-- Pillars of Approach -->
+            <div class="about-pillars">
+              <div class="pillar-item">
+                <span class="pillar-num">I.</span>
+                <div class="pillar-content">
+                  <h3 class="pillar-title">Curiosity-Led Discovery</h3>
+                  <p class="pillar-desc">Constantly studying consumer pain points, emerging business models, and AI workflows.</p>
+                </div>
+              </div>
+              <div class="pillar-item">
+                <span class="pillar-num">II.</span>
+                <div class="pillar-content">
+                  <h3 class="pillar-title">Bias for Action</h3>
+                  <p class="pillar-desc">Prioritising rapid prototyping, testing real websites, and seeking firsthand user feedback.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Editorial Highlight Statement -->
+          <div class="about-statement-wrapper">
+            <aside class="manifesto-card">
+              <div class="manifesto-decor-icon" aria-hidden="true">
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.5 19.5C12.9853 19.5 15 17.4853 15 15C15 12.5147 12.9853 10.5 10.5 10.5C8.01472 10.5 6 12.5147 6 15C6 22 10.5 25.5 10.5 25.5" stroke="#D6A56C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M25.5 19.5C27.9853 19.5 30 17.4853 30 15C30 12.5147 27.9853 10.5 25.5 10.5C23.0147 10.5 21 12.5147 21 15C21 22 25.5 25.5 25.5 25.5" stroke="#D6A56C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+
+              <blockquote class="manifesto-quote">
+                "Learn by building.<br>Improve by doing."
+              </blockquote>
+
+              <div class="manifesto-divider" aria-hidden="true"></div>
+
+              <p class="manifesto-subtext">
+                True business insight doesn't stay confined to textbooks. It comes from launching real prototypes, talking to real people, and learning through deliberate iteration.
+              </p>
+
+              <div class="manifesto-footer">
+                <span class="manifesto-tag">CORE PHILOSOPHY</span>
+                <span class="manifesto-year">IIM BANGALORE DBE</span>
+              </div>
+            </aside>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION: EDUCATION
+         Vertical timeline with clean editorial typography and structure
+         ======================================================== -->
+    <section id="education" class="education-section">
+      <div class="container">
+        
+        <div class="section-label-wrapper">
+          <span class="section-index">02</span>
+          <span class="section-kicker">ACADEMIC BACKGROUND</span>
+        </div>
+
+        <div class="section-header-compact">
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtitle">
+            Dual undergraduate pursuits combining premier management fundamentals with broad academic perspectives.
+          </p>
+        </div>
+
+        <!-- Vertical Education Timeline -->
+        <div class="timeline-container">
+          <div class="timeline-rail" aria-hidden="true"></div>
+
+          <!-- Timeline Item 1: IIM Bangalore -->
+          <article class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true">
+              <span class="marker-dot"></span>
+            </div>
+            
+            <div class="timeline-content">
+              <div class="timeline-card">
+                <div class="card-header-flex">
+                  <div class="card-headings">
+                    <span class="institution-type">PREMIER MANAGEMENT INSTITUTE</span>
+                    <h3 class="institution-name">Indian Institute of Management Bangalore</h3>
+                    <h4 class="degree-title">BBA in Digital Business and Entrepreneurship (BBA DBE)</h4>
+                  </div>
+                  <div class="card-badge-wrap">
+                    <span class="status-badge status-ongoing">Ongoing</span>
+                  </div>
+                </div>
+
+                <div class="card-divider" aria-hidden="true"></div>
+
+                <p class="timeline-desc">
+                  Immersed in modern digital commerce, product strategy, digital operations, venture creation, and analytical problem-solving in India's leading business ecosystem.
+                </p>
+
+                <div class="timeline-tags">
+                  <span class="tag">Digital Business</span>
+                  <span class="tag">Entrepreneurship</span>
+                  <span class="tag">Product Strategy</span>
+                  <span class="tag">Venture Building</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Timeline Item 2: Gyan Veer University -->
+          <article class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true">
+              <span class="marker-dot"></span>
+            </div>
+
+            <div class="timeline-content">
+              <div class="timeline-card">
+                <div class="card-header-flex">
+                  <div class="card-headings">
+                    <span class="institution-type">UNDERGRADUATE UNIVERSITY</span>
+                    <h3 class="institution-name">Gyan Veer University</h3>
+                    <h4 class="degree-title">Undergraduate Studies</h4>
+                  </div>
+                  <div class="card-badge-wrap">
+                    <span class="status-badge status-ongoing">Ongoing</span>
+                  </div>
+                </div>
+
+                <div class="card-divider" aria-hidden="true"></div>
+
+                <p class="timeline-desc">
+                  Building complementary academic depth across core commerce and business administration principles alongside applied digital venture building.
+                </p>
+
+                <div class="timeline-tags">
+                  <span class="tag">Undergraduate Studies</span>
+                  <span class="tag">Business Administration</span>
+                  <span class="tag">Commercial Foundations</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Timeline Item 3: Paras Vidhya Vihar -->
+          <article class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true">
+              <span class="marker-dot"></span>
+            </div>
+
+            <div class="timeline-content">
+              <div class="timeline-card">
+                <div class="card-header-flex">
+                  <div class="card-headings">
+                    <span class="institution-type">FOUNDATIONAL EDUCATION</span>
+                    <h3 class="institution-name">Paras Vidhya Vihar</h3>
+                    <h4 class="degree-title">School Education</h4>
+                  </div>
+                  <div class="card-badge-wrap">
+                    <span class="status-badge status-completed">Completed</span>
+                  </div>
+                </div>
+
+                <div class="card-divider" aria-hidden="true"></div>
+
+                <p class="timeline-desc">
+                  Comprehensive high school education marked by active involvement in athletics, house leadership as Sports House Captain, and inter-school competitions.
+                </p>
+
+                <div class="timeline-tags">
+                  <span class="tag">School Education</span>
+                  <span class="tag">House Captaincy</span>
+                  <span class="tag">Sports &amp; Athletics</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION: EXPERIENCE & PROJECTS
+         Featured Venture layout for Interview Ace Up + Alternating blocks
+         ======================================================== -->
+    <section id="experience" class="experience-section">
+      <!-- Target anchor for direct navigation to projects -->
+      <div id="projects" class="scroll-anchor"></div>
+
+      <div class="container">
+        
+        <div class="section-label-wrapper">
+          <span class="section-index">03</span>
+          <span class="section-kicker">VENTURES &amp; ROLES</span>
+        </div>
+
+        <div class="section-header-compact">
+          <h2 class="section-title">Experience &amp; Projects</h2>
+          <p class="section-subtitle">
+            Hands-on ventures, community leadership, and practical digital production experiences.
+          </p>
+        </div>
+
+        <!-- FEATURED PROJECT: Interview Ace Up -->
+        <article class="featured-project-card">
+          <div class="featured-header">
+            <div class="featured-tag-group">
+              <span class="featured-badge">FEATURED VENTURE</span>
+              <span class="featured-status">IN ACTIVE DEVELOPMENT</span>
+            </div>
+            <span class="featured-role-pill">Founder / Builder</span>
+          </div>
+
+          <div class="featured-grid">
+            <div class="featured-info">
+              <h3 class="featured-title">Interview Ace Up</h3>
+              <p class="featured-lead">
+                Currently developing an interview-practice website that enables people to take mock interviews and practise their responses.
+              </p>
+              
+              <div class="project-inquiry-box">
+                <h4 class="inquiry-title">What I'm Actively Exploring:</h4>
+                <ul class="inquiry-list">
+                  <li>
+                    <strong class="inquiry-keyword">Product Development:</strong> Structuring mock interview question flows and user response mechanics.
+                  </li>
+                  <li>
+                    <strong class="inquiry-keyword">User Needs &amp; Anxiety:</strong> Understanding how job seekers and students prepare for real-world interview pressures.
+                  </li>
+                  <li>
+                    <strong class="inquiry-keyword">Website Experience:</strong> Designing clean, intuitive interfaces that keep users focused on constructive practice.
+                  </li>
+                  <li>
+                    <strong class="inquiry-keyword">Feedback Loops &amp; Marketing:</strong> Gathering peer insights and shaping organic outreach strategies.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="featured-tags">
+                <span class="tag tag-amber">Product Building</span>
+                <span class="tag tag-amber">Mock Interview Tool</span>
+                <span class="tag tag-amber">User Experience</span>
+                <span class="tag tag-amber">Early-Stage Venture</span>
+              </div>
+            </div>
+
+            <!-- Stylized Editorial CSS Interface Showcase (Zero JS, semantic CSS preview) -->
+            <div class="featured-mockup-wrapper" aria-hidden="true">
+              <div class="mockup-frame">
+                <div class="mockup-top-bar">
+                  <div class="mockup-dots">
+                    <span class="mock-dot"></span>
+                    <span class="mock-dot"></span>
+                    <span class="mock-dot"></span>
+                  </div>
+                  <span class="mockup-url-bar">interviewaceup.app &bull; Mock Practice Session</span>
+                </div>
+
+                <div class="mockup-body">
+                  <div class="mockup-step-indicator">
+                    <span class="step-label">QUESTION 02 OF 05</span>
+                    <span class="step-badge">HR &amp; Behavioral</span>
+                  </div>
+
+                  <div class="mockup-prompt-box">
+                    <p class="mockup-question">
+                      "Tell me about a time you solved a tough operational problem under strict deadlines."
+                    </p>
+                  </div>
+
+                  <div class="mockup-response-area">
+                    <div class="mockup-mic-status">
+                      <span class="mic-wave"></span>
+                      <span class="mic-wave"></span>
+                      <span class="mic-wave"></span>
+                      <span class="mic-text">Recording user response simulation...</span>
+                    </div>
+                    <div class="mockup-progress-line">
+                      <span class="progress-fill"></span>
+                    </div>
+                  </div>
+
+                  <div class="mockup-feedback-preview">
+                    <div class="feedback-col">
+                      <span class="col-title">Structure Check</span>
+                      <span class="col-val">STAR Method Aligned</span>
+                    </div>
+                    <div class="feedback-col">
+                      <span class="col-title">Clarity Score</span>
+                      <span class="col-val">High Precision</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- TWO-COLUMN EXPERIENCE GRID -->
+        <div class="experience-dual-grid">
+          
+          <!-- Experience Card 1: Moonshot -->
+          <article class="experience-card">
+            <div class="card-meta-top">
+              <span class="card-index">ROLE 01</span>
+              <span class="card-period">CAMPUS LEADERSHIP</span>
+            </div>
+
+            <div class="exp-title-group">
+              <h3 class="exp-role">Campus Ambassador</h3>
+              <h4 class="exp-org">Moonshot</h4>
+            </div>
+
+            <p class="exp-summary">
+              Representing and championing Moonshot across the student body to build awareness and foster participatory engagement.
+            </p>
+
+            <ul class="exp-bullet-list">
+              <li>
+                <span class="bullet-marker" aria-hidden="true">&bull;</span>
+                <span>Represent and promote Moonshot within the campus community.</span>
+              </li>
+              <li>
+                <span class="bullet-marker" aria-hidden="true">&bull;</span>
+                <span>Help create awareness and encourage student engagement through targeted initiatives.</span>
+              </li>
+              <li>
+                <span class="bullet-marker" aria-hidden="true">&bull;</span>
+                <span>Develop practical skills in communication, community outreach, and promotional-content creation.</span>
+              </li>
+            </ul>
+
+            <div class="exp-tags-footer">
+              <span class="tag">Community Outreach</span>
+              <span class="tag">Campus Advocacy</span>
+              <span class="tag">Promotional Content</span>
+              <span class="tag">Communication</span>
+            </div>
+          </article>
+
+          <!-- Experience Card 2: Website & Content Projects -->
+          <article class="experience-card">
+            <div class="card-meta-top">
+              <span class="card-index">ROLE 02</span>
+              <span class="card-period">APPLIED FREELANCE / CLIENT WORK</span>
+            </div>
+
+            <div class="exp-title-group">
+              <h3 class="exp-role">Website &amp; Content Projects</h3>
+              <h4 class="exp-org">Independent Creator &amp; Web Builder</h4>
+            </div>
+
+            <p class="exp-summary">
+              Designing and launching functional web interfaces and visual creative assets for real businesses.
+            </p>
+
+            <ul class="exp-bullet-list">
+              <li>
+                <span class="bullet-marker" aria-hidden="true">&bull;</span>
+                <span>Built websites for multiple businesses, tailoring structure to distinct business models.</span>
+              </li>
+              <li>
+                <span class="bullet-marker" aria-hidden="true">&bull;</span>
+                <span>Gained practical experience in presenting services online and crafting coherent digital customer journeys.</span>
+              </li>
+              <li>
+                <span class="bullet-marker" aria-hidden="true">&bull;</span>
+                <span>Created promotional content and high-impact social media creatives using Canva and CapCut.</span>
+              </li>
+            </ul>
+
+            <div class="exp-tags-footer">
+              <span class="tag">Website Building</span>
+              <span class="tag">Canva</span>
+              <span class="tag">CapCut</span>
+              <span class="tag">Digital Presentation</span>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION: LEADERSHIP, SPORTS & ACTIVITIES
+         Distinct background color (Soft Stone) to provide visual rhythm
+         ======================================================== -->
+    <section id="activities" class="activities-section">
+      <div class="container">
+        
+        <div class="section-label-wrapper">
+          <span class="section-index">04</span>
+          <span class="section-kicker">BEYOND THE DESK</span>
+        </div>
+
+        <div class="section-header-compact">
+          <h2 class="section-title">Leadership, Sports &amp; Activities</h2>
+          <p class="section-subtitle">
+            How competitive sports, house responsibility, and case challenges forged resilience, teamwork, and tactical coordination.
+          </p>
+        </div>
+
+        <div class="activities-grid">
+          
+          <!-- Activity Card 1: Sports House Captain -->
+          <article class="activity-card">
+            <div class="activity-icon-wrap" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/>
+                <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/>
+                <path d="M4 22h16"/>
+                <path d="M10 14.66V17c0 .55-.45 1-1 1H7c-.55 0-1-.45-1-1v-2.34"/>
+                <path d="M14 14.66V17c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-2.34"/>
+                <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/>
+              </svg>
+            </div>
+            <h3 class="activity-title">Sports House Captain</h3>
+            <span class="activity-org">Paras Vidhya Vihar</span>
+            <p class="activity-desc">
+              Served as Sports House Captain, taking responsibility for team coordination, motivating peers, managing athletic events, and upholding house discipline.
+            </p>
+          </article>
+
+          <!-- Activity Card 2: School-Level Football -->
+          <article class="activity-card">
+            <div class="activity-icon-wrap" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="m4.93 4.93 4.24 4.24"/>
+                <path d="m14.83 9.17 4.24-4.24"/>
+                <path d="m14.83 14.83 4.24 4.24"/>
+                <path d="m9.17 14.83-4.24 4.24"/>
+                <circle cx="12" cy="12" r="4"/>
+              </svg>
+            </div>
+            <h3 class="activity-title">School-Level Football</h3>
+            <span class="activity-org">Competitive Athletics</span>
+            <p class="activity-desc">
+              Played school-level football competitively. Learned how to communicate instantly under pressure, read changing field dynamics, and commit to shared team outcomes.
+            </p>
+          </article>
+
+          <!-- Activity Card 3: Case Competitions -->
+          <article class="activity-card">
+            <div class="activity-icon-wrap" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+              </svg>
+            </div>
+            <h3 class="activity-title">Case Competitions</h3>
+            <span class="activity-org">Strategic Business Challenges</span>
+            <p class="activity-desc">
+              Participated in various case competitions, breaking down multi-layered business dilemmas, conducting market analysis, and structuring evidence-based proposals.
+            </p>
+          </article>
+
+          <!-- Activity Card 4: Transferable Lessons -->
+          <article class="activity-card activity-card-accent">
+            <div class="activity-icon-wrap" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+              </svg>
+            </div>
+            <h3 class="activity-title">Core Character Growth</h3>
+            <span class="activity-org">Key Competencies Developed</span>
+            <p class="activity-desc">
+              Developed teamwork, discipline, coordination, competitive spirit, and practical problem-solving skills that directly inform my approach to building startups.
+            </p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION: SKILLS & INTERESTS
+         Typographic layout with zero fake progress bars
+         ======================================================== -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        
+        <div class="section-label-wrapper">
+          <span class="section-index">05</span>
+          <span class="section-kicker">COMPETENCIES &amp; INTERESTS</span>
+        </div>
+
+        <div class="section-header-compact">
+          <h2 class="section-title">Skills &amp; Interests</h2>
+          <p class="section-subtitle">
+            A balanced toolkit spanning applied execution skills and active intellectual curiosities.
+          </p>
+        </div>
+
+        <div class="skills-split-layout">
+          
+          <!-- Column 1: Applied Practical Skills -->
+          <div class="skills-column">
+            <div class="column-header">
+              <span class="column-badge">PRACTICAL TOOLKIT</span>
+              <h3 class="column-title">Applied Skills</h3>
+            </div>
+            
+            <div class="skills-editorial-list">
+              <div class="skill-entry">
+                <span class="skill-name">Website Building</span>
+                <span class="skill-category">Development &bull; Digital Experience</span>
+              </div>
+              <div class="skill-entry">
+                <span class="skill-name">Canva</span>
+                <span class="skill-category">Visual Design &bull; Brand Assets</span>
+              </div>
+              <div class="skill-entry">
+                <span class="skill-name">CapCut</span>
+                <span class="skill-category">Short-form Video &bull; Media Editing</span>
+              </div>
+              <div class="skill-entry">
+                <span class="skill-name">Content Creation</span>
+                <span class="skill-category">Narrative &bull; Promotional Media</span>
+              </div>
+              <div class="skill-entry">
+                <span class="skill-name">Communication</span>
+                <span class="skill-category">Interpersonal &bull; Presentation</span>
+              </div>
+              <div class="skill-entry">
+                <span class="skill-name">Teamwork</span>
+                <span class="skill-category">Cross-functional Collaboration</span>
+              </div>
+              <div class="skill-entry">
+                <span class="skill-name">Community Outreach</span>
+                <span class="skill-category">Audience Activation &bull; Engagement</span>
+              </div>
+              <div class="skill-entry">
+                <span class="skill-name">Problem Solving</span>
+                <span class="skill-category">Analytical &bull; Strategic Thinking</span>
+              </div>
+              <div class="skill-entry">
+                <span class="skill-name">Product Thinking</span>
+                <span class="skill-category">User Empathy &bull; Concept to Launch</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Intellectual Curiosity & Interests -->
+          <div class="skills-column">
+            <div class="column-header">
+              <span class="column-badge">CORE PASSIONS</span>
+              <h3 class="column-title">Areas of Interest</h3>
+            </div>
+
+            <div class="interests-container">
+              
+              <article class="interest-block">
+                <div class="interest-top">
+                  <span class="interest-num">01</span>
+                  <h4 class="interest-name">Startups</h4>
+                </div>
+                <p class="interest-desc">
+                  Fascinated by zero-to-one ventures, lean experimentation, resourcefulness, and how small agile teams solve large systemic problems.
+                </p>
+              </article>
+
+              <article class="interest-block">
+                <div class="interest-top">
+                  <span class="interest-num">02</span>
+                  <h4 class="interest-name">Entrepreneurship</h4>
+                </div>
+                <p class="interest-desc">
+                  Studying sustainable business models, unit economics, founder resilience, and how vision transforms into operational reality.
+                </p>
+              </article>
+
+              <article class="interest-block">
+                <div class="interest-top">
+                  <span class="interest-num">03</span>
+                  <h4 class="interest-name">AI &amp; Emerging Technology</h4>
+                </div>
+                <p class="interest-desc">
+                  Exploring practical implementations of generative models and automation to make consumer and business tools dramatically more useful.
+                </p>
+              </article>
+
+              <article class="interest-block">
+                <div class="interest-top">
+                  <span class="interest-num">04</span>
+                  <h4 class="interest-name">Product Development</h4>
+                </div>
+                <p class="interest-desc">
+                  Understanding user journeys, designing clean workflows, continuous prototyping, and building things people genuinely want to use.
+                </p>
+              </article>
+
+              <article class="interest-block">
+                <div class="interest-top">
+                  <span class="interest-num">05</span>
+                  <h4 class="interest-name">Marketing &amp; User Growth</h4>
+                </div>
+                <p class="interest-desc">
+                  Investigating organic growth loops, educational content distribution, community-led acquisition, and customer retention.
+                </p>
+              </article>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION: CURRENTLY LEARNING
+         Small, authentic, personal vignette section
+         ======================================================== -->
+    <section id="learning" class="learning-section">
+      <div class="container">
+        
+        <div class="learning-card">
+          <div class="learning-label-row">
+            <span class="learning-badge">
+              <span class="pulse-small" aria-hidden="true"></span>
+              CURRENT PURSUIT &bull; 2024 &ndash; 2026
+            </span>
+          </div>
+
+          <h2 class="learning-title">What I'm Currently Learning</h2>
+
+          <p class="learning-statement">
+            "Currently preparing for CAT 2026 and actively learning how to build products from scratch, understand customer needs and market solutions to a wider audience."
+          </p>
+
+          <div class="learning-milestones">
+            <div class="milestone-pill">
+              <span class="milestone-tag">ACADEMIC MILESTONE</span>
+              <span class="milestone-title">CAT 2026 Preparation</span>
+            </div>
+            <div class="milestone-pill">
+              <span class="milestone-tag">PRODUCT DISCIPLINE</span>
+              <span class="milestone-title">0-to-1 Product Building</span>
+            </div>
+            <div class="milestone-pill">
+              <span class="milestone-tag">GO-TO-MARKET</span>
+              <span class="milestone-title">User Empathy &amp; Outreach</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION: CONTACT
+         Midnight Navy background with warm ivory typography & amber accents
+         ======================================================== -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        
+        <div class="contact-wrapper">
+          <div class="contact-header-block">
+            <span class="contact-kicker">GET IN TOUCH</span>
+            <h2 class="contact-title">Have an idea? Let's connect.</h2>
+            <p class="contact-intro">
+              Whether you're building something exciting, discussing a startup idea, exploring case studies, or sharing insights—I'd love to hear from you.
+            </p>
+          </div>
+
+          <!-- Contact Details Grid -->
+          <div class="contact-info-grid">
+            
+            <div class="contact-card">
+              <span class="contact-card-label">NAME</span>
+              <span class="contact-card-val">Archit Jain</span>
+            </div>
+
+            <div class="contact-card">
+              <span class="contact-card-label">LOCATION</span>
+              <span class="contact-card-val">Indore, India</span>
+            </div>
+
+            <div class="contact-card">
+              <span class="contact-card-label">EMAIL DIRECTLY</span>
+              <a href="mailto:jainarchit636@gmail.com" class="contact-card-link">
+                jainarchit636@gmail.com
+              </a>
+            </div>
+
+            <div class="contact-card">
+              <span class="contact-card-label">PHONE</span>
+              <a href="tel:+919926926554" class="contact-card-link">
+                +91 9926926554
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Direct Action Buttons -->
+          <div class="contact-actions">
+            <a href="mailto:jainarchit636@gmail.com" class="btn btn-amber">
+              <span>Email Me</span>
+              <svg class="btn-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M2 3.5H14C14.55 3.5 15 3.95 15 4.5V11.5C15 12.05 14.55 12.5 14 12.5H2C1.45 12.5 1 12.05 1 11.5V4.5C1 3.95 1.45 3.5 2 3.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M14.5 4L8 9L1.5 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+
+            <!-- LinkedIn placeholder without inventing a vanity URL -->
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-ivory">
+              <span>Connect on LinkedIn</span>
+              <span class="placeholder-tag">Placeholder</span>
+              <svg class="btn-icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M10.5 3.5L3.5 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4.5 3.5H10.5V9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+          <div class="contact-quote-closing">
+            <p>"Open to collaboration, learning opportunities, and discussions on early-stage products."</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================
+       FOOTER
+       Clean typographic footer with navigation and copyright
+       ======================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      
+      <div class="footer-top-row">
+        <div class="footer-brand">
+          <a href="#top" class="footer-logo">ARCHIT JAIN</a>
+          <p class="footer-tagline">"Building, learning and exploring what's next."</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <ul class="footer-nav-list">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer-divider" aria-hidden="true"></div>
+
+      <div class="footer-bottom-row">
+        <p class="copyright-text">
+          &copy; 2024 Archit Jain. Built with semantic HTML5 &amp; CSS3.
+        </p>
+        <a href="#top" class="back-to-top" aria-label="Scroll back to top">
+          Back to top &uarr;
+        </a>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
